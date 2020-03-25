@@ -1,0 +1,11 @@
+schema {
+  query: StudentQueries
+}
+type StudentQueries {
+  students: [Student]
+}
+type Student {
+  id: ID!
+  name: String!
+  
+}
